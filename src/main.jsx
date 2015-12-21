@@ -4,4 +4,4 @@ var ReactDOM = require('react-dom');
 
 var ListA = require('./components/List.jsx');
 
-ReactDOM.render(<ListA />, document.getElementByID('ingredients'));
+ReactDOM.render(<ListA />, document.getElementById('ingredients'));
